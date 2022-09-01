@@ -1,0 +1,5 @@
+train: /home/buzz/notbed/yolov5/train/images
+val: /home/buzz/notbed/yolov5/valid/images
+
+nc: 2
+names: ['np', 'yp']
