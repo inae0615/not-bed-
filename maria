@@ -10,7 +10,7 @@ import pymysql
     db_name = names[int(c)]
     percent = float(conf)
 
-    conn = pymysql.connect(host="192.168.1.169",user="raspi_inae",passwd="1234",db="notbed")
+    conn = pymysql.connect(host="192.168.1.164",user="raspi_inae",passwd="12341234",db="notbed")
     cur = conn.cursor()
     cur.execute("insert into yolov5 (date, name, conf) values(default, '''{0}''', {1:0.5f})".format(db_name, percent))
     conn.commit()
