@@ -8,16 +8,6 @@ from.한직교_안산
 
 -욕창방지 침대 만들기  
 
-# Team: not-bed
-
-2022_project_1
-
-IOT3_Class
-
-from.한직교_안산
-
--욕창방지 침대 만들기  
-
 60656af69143d4b0aa9d6f67e528a26e
 
 https://kauth.kakao.com/oauth/authorize?client_id=60656af69143d4b0aa9d6f67e528a26e&redirect_uri=https://example.com/oauth&response_type=code 
