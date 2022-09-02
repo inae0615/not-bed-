@@ -24,7 +24,7 @@ https://kauth.kakao.com/oauth/authorize?client_id=60656af69143d4b0aa9d6f67e528a2
 
 
 code:
-axVOod3LCdGqxZYR__Xu6jkk4zkABSO1h23N7SXDd9V2VdU2frP5NFg5-st8Cf-CJ3dLago9dVwAAAGC-9-6HQ
+ptHvf9PmfumcCDyHW9d2IrP5t-Fa6ciDjmvqsy2rKUKrJ9Vg0mW_ChwfgkxmbaDVjIp0FgopcJ8AAAGC--Vrww
 
 
 ----------------------------------------------
