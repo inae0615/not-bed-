@@ -22,6 +22,9 @@ from.한직교_안산
 
 https://kauth.kakao.com/oauth/authorize?client_id=60656af69143d4b0aa9d6f67e528a26e&redirect_uri=https://example.com/oauth&response_type=code 
 
+
+https://kauth.kakao.com/oauth/authorize?client_id=60656af69143d4b0aa9d6f67e528a26e&redirect_uri=https://192.168.1.180/&response_type=code
+
 ----------------------------------------------
 What I do
 
