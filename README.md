@@ -22,10 +22,7 @@ from.한직교_안산
 
 https://kauth.kakao.com/oauth/authorize?client_id=60656af69143d4b0aa9d6f67e528a26e&redirect_uri=https://example.com/oauth&response_type=code 
 
-9uSwx2Io3pQW7_PythzQUPN2z9J7a3TWIw3QuBpOkF7V7VSfBuNLPpSQgF5AOlxmNw3enwopyV4AAAGC_Au6qg
-
-
-https://kauth.kakao.com/oauth/authorize?client_id=60656af69143d4b0aa9d6f67e528a26e&redirect_uri=https://192.168.1.180/&response_type=code
+h0bXjMQdF2VhUgIH8dHoma4H809TXKuNQgvT6zRaxS6pDJAa_MjaI1pclB3iRoQmOMZ04wo9dRkAAAGC_BH7zQ
 
 ----------------------------------------------
 What I do
