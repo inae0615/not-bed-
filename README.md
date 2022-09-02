@@ -12,7 +12,7 @@ from.한직교_안산
 
 https://kauth.kakao.com/oauth/authorize?client_id=60656af69143d4b0aa9d6f67e528a26e&redirect_uri=https://example.com/oauth&response_type=code 
 
-gczoyUUTScpKsEIPeAE7SS9JHynW0S4VrxKuXN7PJDotd4bgFUxhVoTgXoH6kdLwJvr1zwo9dVsAAAGC_C0Nyg
+372-EcjBlGeRToftR2qpNPWtCg_lJTRZodZ5WTxwQpshwhDBKMkjnYh4ZLuG4m4r2qanhwopb1QAAAGC_JAdDg
 
 ----------------------------------------------
 What I do
