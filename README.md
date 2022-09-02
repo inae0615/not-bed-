@@ -22,11 +22,6 @@ from.한직교_안산
 
 https://kauth.kakao.com/oauth/authorize?client_id=60656af69143d4b0aa9d6f67e528a26e&redirect_uri=https://example.com/oauth&response_type=code 
 
-
-code:
-ptHvf9PmfumcCDyHW9d2IrP5t-Fa6ciDjmvqsy2rKUKrJ9Vg0mW_ChwfgkxmbaDVjIp0FgopcJ8AAAGC--Vrww
-
-
 ----------------------------------------------
 What I do
 
