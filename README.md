@@ -32,4 +32,4 @@ What I do
 
 https://kauth.kakao.com/oauth/authorize?client_id=60656af69143d4b0aa9d6f67e528a26e&redirect_uri=https://example.com/oauth&response_type=code 
 
-372-EcjBlGeRToftR2qpNPWtCg_lJTRZodZ5WTxwQpshwhDBKMkjnYh4ZLuG4m4r2qanhwopb1QAAAGC_JAdDg
+E5R3V_aE1f7XmeHCMYudEmXODCgBgH4VKZpuGHcswScATDOKpmSdxuMbyS4-vczAsI_zqQo9dZoAAAGDECkFbQ
