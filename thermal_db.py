@@ -5,6 +5,9 @@ import pymysql
 from Adafruit_AMG88xx import Adafruit_AMG88xx
 
 sensor = Adafruit_AMG88xx(busnum=1)
+
+#db 연동
+
 conn = pymysql.connect(host="192.168.1.164",user="raspi_inae",passwd="12341234",db="sensor")
 
 try :
@@ -17,7 +20,7 @@ try :
             if temperature is not None:
                 print('temp=%0.2f',temperature)
                 print(type(temperature))
-
+#db 삽입
                 cur.execute("insert into thermal (date, temperature) values(default, {0:0.2f})".format(temperature))
                 conn.commit()
             else:
