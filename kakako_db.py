@@ -1,9 +1,10 @@
+from socket import AddressFamily
 import time
 import requests
 import json
 import pymysql
 
-def sandmsg():
+def sendmsg():
     #발행한 토큰 불러오기
     with open("token.json","r") as kakao:
         tokens = json.load(kakao)
@@ -24,12 +25,12 @@ def sandmsg():
     response = requests.post(url, headers=headers, data=data)
     response.status_code
 
-g_name = '이인애'
-p_name = '김철수'
-p_room = '504'
+g_name = '이인애'  #보호자 이름
+p_name = '김철수'  #환자 이름
+p_room = '504'   #병실 
 
-#타이머 구현
 
+#타이머 입력  
 in_hour = input("시간을 입력하세요.(숫자만입력, 몇 시간?) :")
 in_min = input("분을 입력하세요.(숫자만입력, 몇 분?) :")
 in_sec = input("초를 입력하세요.(숫자만입력, 몇 초?) :")
@@ -38,23 +39,30 @@ shour = int(in_hour)*smin
 sec = shour + smin + int(in_sec)
 print(sec)
 
-#while은 반복문으로 sec가 0이 되면 반복을 멈춰라
+#sec가 0이 되면 반복을 멈추고 카카오톡 메세지 보내는 함수 호출 
 while (sec != 0) :
     sec = sec-1
     time.sleep(1)
     print(sec)
     if sec <= 0 :
-        sandmsg()
+        sendmsg()
 
-print("카카오톡 전송완료")
+print("카카오톡 전송완료") #카톡 전송확인 
 
-#db연동/삽입
-
+#db 연동/연결 
 conn = pymysql.connect(host="192.168.1.164",user="raspi_inae",passwd="12341234",db="kakao")
-cur = conn.cursor()
+#host : ip주소
+#user : user_name 
+#passwd : password 
+#db : database_name 
+
+cur = conn.cursor() #db 접속 
 cur.execute("insert into message (date, patient_name, p_room, guardian_name) values(default, '''{0}''','''{1}''','''{2}''')".format(p_name,p_room,g_name))
+# messgae 테이블에 date, patient_name, p_room, guardian_name 값 추가/ 삽입하기 
+
+
 conn.commit()
 time.sleep(1)
-conn.close()
+conn.close()  #db_종료 
 
-print("db 전송완료 ")
+print("db 전송완료 ")  #db 전송확인 
