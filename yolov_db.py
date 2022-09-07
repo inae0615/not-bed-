@@ -1,5 +1,5 @@
 #yolov5_detect.py
-#162 줄 
+#162 줄/
 
 import time
 import pymysql
