@@ -38,7 +38,8 @@ try :
             else:
                 print("Failed to get reading.")
             time.sleep(3)
-
+            #3초 간격으로 반복 
+               
 except KeyboardInterrupt :
        exit()
 finally:
