@@ -10,12 +10,14 @@ import pymysql
 
                     db_name = names[int(c)]
                     percent = float(conf)
-
+#db연동/삽입
                     conn = pymysql.connect(host="192.168.1.164",user="raspi_inae",passwd="12341234",db="yolov5")
                     cur = conn.cursor()
                     cur.execute("insert into detect (date, name, conf) values(default, '''{0}''', {1:0.5f})".format(db_name, percent))
                     conn.commit()
                     time.sleep(0)
+                    
+# 감지결과에 따른 카카오톡 전송
 
                     cnt = 0
                     while(1):
