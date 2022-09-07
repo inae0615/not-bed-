@@ -28,8 +28,3 @@ What I do
 - amg8833 열화상카메라 모듈 제어
 
 ------------------------------------------------------------------
-60656af69143d4b0aa9d6f67e528a26e
-
-https://kauth.kakao.com/oauth/authorize?client_id=60656af69143d4b0aa9d6f67e528a26e&redirect_uri=https://example.com/oauth&response_type=code 
-
-E5R3V_aE1f7XmeHCMYudEmXODCgBgH4VKZpuGHcswScATDOKpmSdxuMbyS4-vczAsI_zqQo9dZoAAAGDECkFbQ
