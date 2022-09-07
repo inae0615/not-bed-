@@ -1,4 +1,5 @@
-#yolov_detect.py
+#yolov
+#detect.py_일부발췌  
 #162 줄/
 
 import time
