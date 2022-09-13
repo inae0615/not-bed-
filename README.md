@@ -28,4 +28,5 @@ What I do
 - amg8833 열화상카메라 모듈 제어
 
 ------------------------------------------------------------------
-[인애] [오후 3:27] https://example.com/oauth?code=E5R3V_aE1f7XmeHCMYudEmXODCgBgH4VKZpuGHcswScATDOKpmSdxuMbyS4-vczAsI_zqQo9dZoAAAGDECkFbQ
+
+MNJGcTajUcPEiIASwfhDltbUg8swiy0iQEojpkCeSAf7G9Z3BMuGJUSNjk8kpsZ8t73Ugo9dVwAAAGDNYmUZA
