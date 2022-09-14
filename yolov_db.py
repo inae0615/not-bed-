@@ -29,7 +29,7 @@ import pymysql
                     #검출 결과에 따른 카카오톡 자동 전송 
                     cnt = 0 
                     while(1):
-                        if db_name == 'np' and percent >= 0.4 and cnt == 0:
+                        if db_name == 'np' and percent >= 0.8 and cnt == 0:
                             exec(open("app.py").read()) #카카오톡 자동 실행파일 불러오기 
                             print("{0:0.3f}% 확률로 침대에 사람이 없습니다".format(percent*100))
                             cnt = 1
@@ -39,7 +39,7 @@ import pymysql
                             cnt = 0
                             break
 
-                        elif db_name == 'np' and percent < 0.4:
+                        elif db_name == 'np' and percent < 0.8:
                             print("{0:0.3f}% 확률로 침대에 사람이 없을 수도 있습니다.".format(percent*100))
                             cnt = 0
                             break
