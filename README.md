@@ -28,3 +28,5 @@ What I do
 - amg8833 열화상카메라 모듈 제어
 
 ------------------------------------------------------------------
+
+U8Tpgj-0vutbOIT6EpHattFT1AHCPHXaHp164SpmU4-YpUjGK6_tBaxUJxqYeXBJ9vJDRQopcSEAAAGDgfmzdg
